@@ -10,29 +10,21 @@ public class CalendarConverter {
     static String convertDayToString( int dayNumber){
         switch(dayNumber){
             case MONDAY:
-                System.out.println("Poniedziałek");
-               break;
+                return "Poniedziałek";
             case TUESDAY:
-                System.out.println("Wtorek");
-            break;
+                return "Wtorek";
             case WEDNESDAY:
-                System.out.println("Środa");
-            break;
+                return "Środa";
             case THURSDAY:
-                System.out.println("Czwartek");
-            break;
+                return "Czwartek";
             case FRIDAY:
-                System.out.println("Piątek");
-            break;
+                return "Piątek";
             case SATURDAY:
-                System.out.println("Sobota");
-            break;
+                return "Sobota";
             case SUNDAY:
-                System.out.println("Niedziela");
-            break;
+                return "Niedziela";
             default:
                 return "Nie ma takiego dnia";
         }
-        return ;
     }
 }
